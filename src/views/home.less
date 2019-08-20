@@ -1,0 +1,58 @@
+.outer-container {
+  height: 100%;
+}
+
+.header {
+  z-index: 888;
+  display: flex;
+  padding: 0 16px !important;
+}
+
+.header .left {
+  display: flex;
+}
+
+.header-menu {
+  line-height: 64px !important;
+}
+
+.logo {
+  padding-right: 16px;
+}
+
+.header .auto-expand {
+  flex: auto;
+}
+
+.header-avatar {
+  padding: 0 16px;
+  color: #fff;
+  cursor: pointer;
+
+  &:hover {
+    background-color: rgba(92, 168, 218, 0.2);
+  }
+}
+
+.header-avatar-icon {
+  margin-right: 8px !important;
+}
+
+.left-sider {
+  z-index: 666;
+  position: 'fixed';
+  left: 0;
+  height: '100vh';
+  overflow-y: auto;
+  overflow-x: hidden;
+}
+
+.left-menu {
+  border-right: none !important;
+}
+
+.content {
+  padding: 16px;
+  overflow: auto;
+  background-color: #fff;
+}

@@ -1,0 +1,34 @@
+{
+  "defaultSeverity": "warning",
+  "extends": ["tslint:recommended"],
+  "linterOptions": {
+    "exclude": ["node_modules/**"]
+  },
+  "rules": {
+    "arrow-parens": [true, "ban-single-arg-parens"],
+    "curly": [true, "ignore-same-line"],
+    "quotemark": [true, "single"],
+    "indent": [true, "spaces", 2],
+    "interface-name": false,
+    "object-literal-key-quotes": [true, "as-needed"],
+    "object-literal-sort-keys": false,
+    "member-access": [true, "no-public"],
+    "no-consecutive-blank-lines": false,
+    "no-console": false,
+    "no-bitwise": false,
+    "trailing-comma": [
+      true,
+      {
+        "esSpecCompliant": true
+      }
+    ],
+    "variable-name": [
+      true,
+      "check-format",
+      "allow-leading-underscore",
+      "allow-trailing-underscore",
+      "allow-pascal-case",
+      "ban-keywords"
+    ]
+  }
+}
